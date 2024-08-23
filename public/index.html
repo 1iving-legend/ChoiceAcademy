@@ -33,18 +33,21 @@
     <div id="root">
       <div class="loaderdiv">
         <div class="waviy">
-          <span style="--i: 1">S</span>
-          <span style="--i: 2">T</span>
-          <span style="--i: 3">U</span>
-          <span style="--i: 4">D</span>
-          <span style="--i: 5">Y</span>
+          <span style="--i: 1">c</span>
+          <span style="--i: 2">h</span>
+          <span style="--i: 3">o</span>
+          <span style="--i: 3">i</span>
+          <span style="--i: 4">c</span>
+          <span style="--i: 5">e</span>
           <span> </span>
-          <span style="--i: 6">N</span>
-          <span style="--i: 7">O</span>
-          <span style="--i: 8">T</span>
-          <span style="--i: 9">I</span>
-          <span style="--i: 10">O</span>
-          <span style="--i: 11">N</span>
+          <span style="--i: 6">A</span>
+          <span style="--i: 7">c</span>
+          <span style="--i: 8">a</span>
+          <span style="--i: 9">d</span>
+          <span style="--i: 10">e</span>
+          <span style="--i: 11">m</span>
+          <span style="--i: 11">y</span>
+
         </div>
       </div>
     </div>
@@ -52,32 +55,32 @@
     <div id="install-prompt" class="install-prompt">
       <div class="install-prompt-header">
         <div class="install-prompt-header-text">
-          <h3>Install Study Notion</h3>
+          <!-- <h3>Install Study Notion</h3> -->
         </div>
         <button id="close-button" class="close-button">X</button>
       </div>
-      <div class="install-prompt-content">
+      <!-- <div class="install-prompt-content">
         <p>Install our app to access all the features!</p>
         <button id="install-button" class="install-button">Install</button>
-      </div>
+      </div> -->
     </div>
 
-    <script>
+    <!-- <script>
       let deferredPrompt;
 
-      function showInstallPrompt() {
-        if (deferredPrompt) {
-          deferredPrompt.prompt(); // Show the install prompt
-          deferredPrompt.userChoice.then(function (choiceResult) {
-            if (choiceResult.outcome === "accepted") {
-              console.log("User accepted the install prompt");
-            } else {
-              console.log("User dismissed the install prompt");
-            }
-            deferredPrompt = null; // Reset the deferredPrompt
-          });
-        }
-      }
+      // function showInstallPrompt() {
+      //   if (deferredPrompt) {
+      //     deferredPrompt.prompt(); // Show the install prompt
+      //     deferredPrompt.userChoice.then(function (choiceResult) {
+      //       if (choiceResult.outcome === "accepted") {
+      //         console.log("User accepted the install prompt");
+      //       } else {
+      //         console.log("User dismissed the install prompt");
+      //       }
+      //       deferredPrompt = null; // Reset the deferredPrompt
+      //     });
+      //   }
+      // }
 
       // Add event listener to the install button
       const installButton = document.getElementById("install-button");
@@ -122,6 +125,6 @@
           //dont show install prompt again
           sessionStorage.setItem("installPrompt", "true");
         });
-    </script>
+    </script> -->
   </body>
 </html>

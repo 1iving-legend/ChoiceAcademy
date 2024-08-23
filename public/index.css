@@ -1,4 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +9,7 @@
 .loaderdiv{
     width: 100vw;
     height: 100vh;
-    background: #000814;
+    background: #950560;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +23,7 @@
   -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
   font-size: 30px;
 }
-.waviy span {
+/* .waviy span {
   font-family: 'Alfa Slab One',sans-serif;
   position: relative;
   display: inline-block;
@@ -39,7 +40,7 @@
   20% {
     transform: translateY(-20px)
   }
-}
+} */
 
 
 
@@ -89,4 +90,8 @@
     top: 2px;
     right: 3px;
   }
+
+
+ 
+
   
